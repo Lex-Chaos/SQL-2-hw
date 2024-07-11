@@ -22,7 +22,7 @@ HAVING customers > 300
 ;
 ```
 
-![Задание 1](https://github.com/Lex-Chaos/SQL-2-hw/blob/main/img/SQL2_Task_1.png)
+![Задание 1](https://github.com/Lex-Chaos/SQL-2-hw/blob/master/img/SQL2_Task_1.png)
 
 ---
 
@@ -39,7 +39,7 @@ WHERE `length` > (SELECT AVG(`length`) FROM film)
 ;
 ```
 
-![Задание 2](https://github.com/Lex-Chaos/SQL-2-hw/blob/main/img/SQL2_Task_2.png)
+![Задание 2](https://github.com/Lex-Chaos/SQL-2-hw/blob/master/img/SQL2_Task_2.png)
 
 ---
 
@@ -62,7 +62,7 @@ ORDER BY summ DESC
 LIMIT 1
 ```
 
-![Задание 3](https://github.com/Lex-Chaos/SQL-2-hw/blob/main/img/SQL2_Task_3.png)
+![Задание 3](https://github.com/Lex-Chaos/SQL-2-hw/blob/master/img/SQL2_Task_3.png)
 
 ---
 
@@ -85,7 +85,7 @@ INNER JOIN rental r ON r.staff_id = s.staff_id
 GROUP BY Staff
 ```
 
-![Задание 4](https://github.com/Lex-Chaos/SQL-2-hw/blob/main/img/SQL2_Task_4.png)
+![Задание 4](https://github.com/Lex-Chaos/SQL-2-hw/blob/master/img/SQL2_Task_4.png)
 
 ---
 
@@ -104,4 +104,4 @@ WHERE r.rental_id IS NULL
 ;
 ```
 
-![Задание 5](https://github.com/Lex-Chaos/SQL-2-hw/blob/main/img/SQL2_Task_5.png)
+![Задание 5](https://github.com/Lex-Chaos/SQL-2-hw/blob/master/img/SQL2_Task_5.png)
